@@ -1,0 +1,172 @@
+/* AccountPage.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .account-page {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #f3f4f6;
+    border-right: 1px solid #ddd;
+  }
+  
+  .profile {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile h3 {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .navigation h4 {
+    margin-top: 20px;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navigation li {
+    margin: 8px 0;
+    color: #777;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .wallet-section,
+  .account-info,
+  .lists {
+    margin-bottom: 30px;
+  }
+  
+  .wallet-section h2,
+  .account-info h2,
+  .lists h2 {
+    color: #333;
+  }
+  
+  .card-list {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card,
+  .add-card {
+    flex: 1;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .card .card-details p {
+    margin: 8px 0;
+  }
+  
+  .add-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #007bff;
+    border: 2px dashed #ddd;
+    cursor: pointer;
+  }
+  
+  .account-info .info-box {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .info-item {
+    flex: 1;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .info-item span {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .lists .list-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .list-item {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    align-items: center;
+  }
+  
+  .list-item img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .item-details h4 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .item-details .price {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .add-to-cart {
+    margin-top: 10px;
+    padding: 5px 15px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #e0a800;
+  }
+  
